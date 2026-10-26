@@ -26,6 +26,7 @@ The visualization of data helps in identifying hotspots, allowing for better sec
 This project presents a practical approach to navigating the complexities of real-world data analysis and assisting in decision-making.
 """
 )
+st.divider()
 st.subheader("Methodology")
 st.write(
     """
@@ -33,6 +34,7 @@ This project involves collecting crime data, cleaning and pre-processing it for 
 We used libraries like Pandas for data manipulation and Plotly Express for creating interactive visualizations, ensuring the data is easily interpretable.
 """
 )
+st.divider()
 st.subheader("Future Scope")
 st.write(
     """
