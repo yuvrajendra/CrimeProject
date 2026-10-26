@@ -18,7 +18,7 @@ fig.update_xaxes(tickangle=45)
 st.plotly_chart(fig)
 st.write(
     """
-This dashboard provides a detailed and interactive analysis of crime cases and their trends across different regions. 
+--> This dashboard provides a detailed and interactive analysis of crime cases and their trends across different regions. 
 By utilizing data from the National Crime Records Bureau (NCRB), the application illustrates the distribution of various types of crimes. 
 Through this, users can observe which crimes are reported in the highest numbers and which areas are most affected. 
 The visualization of data helps in identifying hotspots, allowing for better security measures and resource allocation. 
