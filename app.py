@@ -26,6 +26,19 @@ The visualization of data helps in identifying hotspots, allowing for better sec
 This project presents a practical approach to navigating the complexities of real-world data analysis and assisting in decision-making.
 """
 )
+st.subheader("Methodology")
+st.write(
+    """
+This project involves collecting crime data, cleaning and pre-processing it for analysis. 
+We used libraries like Pandas for data manipulation and Plotly Express for creating interactive visualizations, ensuring the data is easily interpretable.
+"""
+)
+st.subheader("Future Scope")
+st.write(
+    """
+Future enhancements could include integrating real-time crime data updates, deploying predictive machine learning models to forecast crime patterns, and adding advanced geospatial analysis to improve emergency response times.
+"""
+)
 st.sidebar.title("Crime Data Analysis and Visualization")
 selected_date = st.sidebar.date_input("Selected Date")
 selected_area = st.sidebar.multiselect("Select Area", options=df["AREA NAME"].unique())
