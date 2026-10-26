@@ -29,7 +29,7 @@ st.sidebar.write("College Mini Project")
 st.sidebar.write("B.tech Data science Student 3rd Sem ")
 st.sidebar.write("Group #6 ")
 st.sidebar.write("yuv7474@gmail.com")
-st.sidebar.write("Contact: 7307905895")
+st.sidebar.write("Contact: 7307905895,9569133345")
 
 
 
