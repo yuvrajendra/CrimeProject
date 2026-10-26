@@ -16,6 +16,7 @@ crime_count=df['Crm Cd Desc'].value_counts().reset_index()
 fig=px.bar(crime_count.head(10), x='Crm Cd Desc', y='count',title="Top 10 Crimes")
 fig.update_xaxes(tickangle=45)
 st.plotly_chart(fig)
+st.subheader("OVERVIEW")
 st.write(
     """
 --> This dashboard provides a detailed and interactive analysis of crime cases and their trends across different regions. 
