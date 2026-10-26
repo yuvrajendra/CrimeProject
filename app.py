@@ -16,11 +16,15 @@ crime_count=df['Crm Cd Desc'].value_counts().reset_index()
 fig=px.bar(crime_count.head(10), x='Crm Cd Desc', y='count',title="Top 10 Crimes")
 fig.update_xaxes(tickangle=45)
 st.plotly_chart(fig)
-st.write("This dashboard provides a detailed and interactive analysis of crime cases and their trends across different regions. 
+st.write(
+    """
+This dashboard provides a detailed and interactive analysis of crime cases and their trends across different regions. 
 By utilizing data from the National Crime Records Bureau (NCRB), the application illustrates the distribution of various types of crimes. 
 Through this, users can observe which crimes are reported in the highest numbers and which areas are most affected. 
 The visualization of data helps in identifying hotspots, allowing for better security measures and resource allocation. 
-This project presents a practical approach to navigating the complexities of real-world data analysis and assisting in decision-making.")
+This project presents a practical approach to navigating the complexities of real-world data analysis and assisting in decision-making.
+"""
+)
 st.sidebar.title("Crime Data Analysis and Visualization")
 selected_date = st.sidebar.date_input("Selected Date")
 selected_area = st.sidebar.multiselect("Select Area", options=df["AREA NAME"].unique())
