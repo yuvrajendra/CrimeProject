@@ -3,7 +3,8 @@ import pandas as pd
 import plotly.express as px
 st.set_page_config(layout="wide", page_title="Crime Data Analysis")
 df = pd.read_csv("Crime_Data_from_2020_to_Present.csv")
-st.title("Crime Data Analysis")
+st.title("Crime Data Analysis & Visualisation")
+st.write("State and district crime trends from NCRB data with hotspot maps")
 st.write(df.head())
 col1, col2 = st.columns(2)
 with col1:
